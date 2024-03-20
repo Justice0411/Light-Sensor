@@ -43,7 +43,7 @@ struct sinhvien{
 	char ma[1000];
 	double gpa;
 	char lop[50];
-	char bangai[10];
+
 };
 typedef struct sinhvien sv;
 
@@ -57,8 +57,8 @@ int main(){
 		getchar();
 		scanf("%s", &a.lop);
 		getchar();
-	    gets(a.bangai);
-		printf("%s %s %.2f %s %s\n", a.ten, a.ma, a.gpa, a.lop, a.bangai);
+	
+		printf("%s %s %.2f %s %s\n", a.ten, a.ma, a.gpa, a.lop);
 		return 0;
 	}
 
